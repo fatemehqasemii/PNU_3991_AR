@@ -1,4 +1,11 @@
 # PNU_3991_AR
+
+- [حساب گیت هاب] (https://github.com/fatemehqasemii)
+- [رزومه] (https://github.com/fatemehqasemii/resume)
+- [SOP](لینک انگیزه نامه)
+
+
+
 ## روز و ساعت ارائه دروس
 
 <table style="width:100%">
