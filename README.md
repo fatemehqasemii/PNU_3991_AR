@@ -4,7 +4,7 @@
 
 - [حساب گیت هاب] (https://github.com/fatemehqasemii)
 - [رزومه] (https://fatemehqasemii.github.io/)
-- [SOP](لینک انگیزه نامه)
+- [SOP](https://github.com/fatemehqasemii/SOP)
 
 
 
