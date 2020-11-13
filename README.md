@@ -3,7 +3,7 @@
 ### فاطمه قاسمی
 
 - [حساب گیت هاب] (https://github.com/fatemehqasemii)
--  (https://fatemehqasemii.github.io/ )
+-  [رزومه](https://fatemehqasemii.github.io/ )
 - [SOP](https://fatemehqasemii.github.io/SOP/)
 
 
