@@ -1,0 +1,126 @@
+\documentclass{book}
+\usepackage{amsmath,amsthm,amssymb,mathrsfs,amscd,mathtools,dsfont,nccmath}
+\begin{document}
+4.Consider the following Turning machine\\
+\begin{align}
+\delta(A,a)\rightarrow(B, a,R\rightarrow)\\
+\delta(B,b)\rightarrow(B, b,R\rightarrow)\\
+\delta(B,a)\rightarrow(B, a,R\rightarrow)\\
+\delta(C,b)\rightarrow(B, b,R\rightarrow)\\
+\delta(C,a)\rightarrow(B, a,R\rightarrow)\\
+\end{align}
+
+d is the state.the language accepted by the TM is\\
+\begin{align} 
+a)  ab\ast ab \ast      b) ab\ast ab\ast a        c) ab + ab +a		d) a\ast(ba)\ast a\\
+\end{align}
+ 
+5.Consider the following Turing machine \\
+\begin{align}
+\delta(A,a)\rightarrow(B, a,R\rightarrow)\\
+\delta(A,b)\rightarrow(B, b,R\rightarrow)\\
+\delta(B,a)\rightarrow(B, a,L\rightarrow)\\
+\delta(B,b)\rightarrow(B, b,L\rightarrow)\\
+ 
+ \delta(B,Blank)\rightarrow(C, Blank,R\rightarrow)\\
+ \end{align}
+C  is the final state\\
+On input ab , the machine will\\
+a) Halt on acceoting state				b) Go into infinite loop\\
+c) Crash										d) Reach to final state but willl not halt\\
+
+6.When does a Turing machine crash?\\
+
+a) if the machine traverses all the inputs without  traversing some state\\
+b) if it traverses all its states till the input remains\\
+c) if the transitional function is not  defined for the present state and the input combimation\\
+d) None of this\\
+
+7. A single-tap Turing machine M has two states q_{0} and q_{1} , of which  q_{0} is the starting state. the tape alphabet
+of M is \lbrace 0,1,B\rbrace and its input alphabet is \lbrace 0,1\rbrace . the symbol B is the blank symbol used to indicate the end
+of an input string. the transition function of M is described in the following table.\\
+
+The table is interpreted as illustrated in the following.\\
+the entry (q_{1},1,R) in row q_{0} and coulmn 1 signifies that if M is in state q_{0} and reads 1 on the curent tape square, then it writes 1 on the same tape square, moves its tape head one position to the right , and transition to state q_{1}.\\
+which of the following  statements is true about M?\\
+\begin{align}
+a) M does not halt on any string in (0 +1 )^{+}\\
+b)  M does not halt on any string in (00 +1 )^{\ast}\\
+c)	 M halt on all strings ending in a 0\\
+d)	M halt on all strings ending in a 1\\
+\end{align}
+8.Consider the language L_{1},L_{2}, and L_{3} as given in the following\\
+\begin{align}
+L_{1} = \lbrace 0^{p} 1^{q} \mid p,q \in \rbrace \\
+L_{1} = \lbrace 0^{p} 1^{q} \mid p,q \in N  and p=q\rbrace \\
+L_{1} = \lbrace 0^{p} 1^{qr} \mid p,q ,r\in  N and p=q=r\rbrace \\
+\end{align}
+ which of the following statement is not true?\\
+ a) Pushdown automata (PDA) can be used to recognize L_{1} AND L_{2}\\ 
+ b) L_{1} is a regular language\\
+ c) All the three language are context free\\
+ d) Turing machines can be used to recognize all the language\\
+
+Answers:\\
+1. d			2. c			3. c			4. b 			5. b 				6. c			7. a			8. c\\
+
+Hints:\\
+\begin{align}
+5. Aab\rightarrow aBb \rightarrow Aab \longrightarrow aBb....infinite times\\
+7. For (b),(c), and (d) the machine loops infinitely. it only accepts null string.\\
+8. L_{3} Is not context free.\\
+\end{align}
+
+\chapter{Fill in the Blanks}\\
+\begin{align}
+
+1. All types of language are accepted by\cdots\cdots\cdots\\
+2. According to the chomsky hierarchy, type 0 language is called\cdots\cdots\cdots\\
+3. The diagram of the Turing machine is like finite automata, but here the head moves\cdots\cdots\cdots\\
+4. The head of the turing machine is called\cdots\cdots\cdots\\
+5. The string a^{n}b^{n}c^{n}, n>0 is accepted by \cdots\cdots\cdots\\
+6. The turing machine is called\cdots\cdots\cdots\\
+7. Two-stack PDA is equivalent to\cdots\cdots\cdots\\
+8. The crash condition occurse if the read-write head of a Turing machine is over the\cdots\cdots\cdots\\
+9. A turing machine is said to be in \cdots\cdots\cdots if it not able to move future.\\
+
+Answers:\\
+
+1. Turing machine			2. 	unrestricted language			3. in both direction\\
+4. Read-write head		5. Turing machine						6. universal machine\\
+7. Turing machine			8. leftmost cell							9. halt state\\
+\end{align}
+
+\chapter{Exercise}\\
+
+1. Construct Turing machine for the following\\
+\begin{align}
+a) L = \lbrace a,b\rbrace ^{+}\\
+b) L= WW, Where W \in (a,b)^{+}\\
+c) L= WW^{R}, Where W \in (a,b)^{+}\\
+d) L= \lbrace all even palindromes over (a,b)\rbrace\\
+e) L= a^{n}b^{n}c^{n}, n>0\\
+f) L= n-1, where n>0\\
+\end{align}
+\begin{align}
+2. Design a Turing machine which acts as an eraser.\\
+(Hints: Starts from the left hand side, scans each symbol from left to night, and  replaces each symbol by blank. halts if gets blank.)\\
+
+3.Design a Turing machine which replace 0 by 1 and 1 by 0 of the string traversed.\\
+
+4. Design a Turing machine to accept the string L= \lbrace a^{n}b^{m}c^{n+m}, where n>0, m>0\rbrace .\\
+(Hints: travers an a, replace it by X, and move right to find the first c and replace it by Y.
+then, traverse  left to find the second a. By this process, replace n number of c by Z.)\\
+
+5. Design a turing machine to accepts the string L = \lbrace a^{m}b^{m+n}c^{n}, where m, n>0\rbrace .\\
+6. Design a turing machine  by the transitional notation for the following languages\\
+a) L =a^{n}b^{n}, n>0\\
+b) L=\lbrace a^{n}b^{n}c^{m}d^{m}, where m,n \geq 1\rbrace \\
+c) L=\lbrace a^{n}b^{n}c^{m}, where n,m \geq 1\rbrace \\
+
+7. Make comments on the following statment that a finite state machine with two stacks is as powerful as a turing machine.\\
+
+8. Design a two-stack PDA for adding and subtracting two numbers.\\
+9.Design a two-stack PDA to accepts the string  L=\lbrace a^{m}b^{m+n}c^{n}, where m,n>0\rbrace .\\
+\end{align}
+\end{document}
