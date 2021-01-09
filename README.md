@@ -5,7 +5,7 @@
 -   [گیت هاب](https://github.com/fatemehqasemii/ )
 - [رزومه](https://fatemehqasemii.github.io/ )
 - [SOP](https://fatemehqasemii.github.io/SOP/)
-- [JavaScript certificate](https://github.com/fatemehqasemii/PNU_3991_AR/blob/main/js%20.png)
+- [JavaScript certificate](https://github.com/fatemehqasemii/PNU_3991_AR/blob/main/js.jpg)
 - [patchwork](https://github.com/fatemehqasemii/PNU_3991_AR/blob/main/jlord.png)
 
 
