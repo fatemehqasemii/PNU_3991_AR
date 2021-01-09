@@ -16,6 +16,13 @@
 - [خلاصه ارزیابی بخش عمومی](https://github.com/fatemehqasemii/PNU_3991_AR/blob/main/XX_GeneralSection_CheckList_AR_3991.docx)
 
 
+## بخش دروس کارشناسی
+
+- [خلاصه ارزیابی درس_روش پژوهش وارائه](https://github.com/zahraahmadiii/PNU_3991_AR/blob/main/Research-And-Presentation-metods/XX_ResearchAndPresentationMethods_CheckList_AR_3991%20-%20Copy.pdf)
+
+- [خلاصه ارزیابی درس_نظریه زابان ها و ماشین ها](https://github.com/zahraahmadiii/PNU_3991_AR/blob/main/Language-and-machine-theory/XX_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf)
+
+
 
 
 ## گروه ها
