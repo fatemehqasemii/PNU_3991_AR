@@ -53,6 +53,19 @@
 
 [_1115157_01 نظریه زبان و ماشین](https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines/_1115157_01/01_%D8%B2%D9%87%D8%B1%D8%A7%20%D8%A7%D8%AD%D9%85%D8%AF%D9%8A)
 
+# فعالیت گروهی
+
+## معرفی دروس مشابه
+
+[دانشگاه Georgia Institute of Technology](https://libguides.gatech.edu/c.php?g=944744&p=6810453)
+
+[دانشگاه بوشهر](http://smbidoki.ir/crsdetail.php?crsid=41)
+
+
+## جستجو منابع دیگر 
+
+[پایان نامه ارشد دانشگاه ایالتی اوهایو با موضوع :Measurement of machine learning performance with different condition and hyperparameter](https://oatd.org/oatd/search?q=id%3A%22oai%3Aetd.ohiolink.edu%3Aosu1587693436870594%22)
+
 --------------
 ## روز و ساعت ارائه دروس
 
